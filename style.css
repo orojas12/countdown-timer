@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to right bottom,
+    rgb(255, 196, 4),
+    rgb(255, 104, 4)
+  );
+}
+
+.heading {
+  font-size: 7rem;
+}
+
+.clock {
+  margin-top: 4rem;
+  font-size: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clock__btn {
+  width: 30%;
+  align-self: center;
+}
+
+.clock__minutes {
+  display: flex;
+  flex-direction: column;
+}
+
+.clock__seconds {
+  display: flex;
+  flex-direction: column;
+}
+
+.controller {
+  display: flex;
+  width: 30rem;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.btn {
+  height: 6rem;
+  width: 6rem;
+  font-size: 3rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}

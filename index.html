@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="timer">
+      <h1 class="heading">El intermedio terminara en...</h1>
+      <div class="clock">
+        <div class="clock__minutes">
+          <button class="clock__btn clock__minutes--increment">^</button>
+          <div class="clock__minutes--display">05</div>
+          <button class="clock__btn clock__minutes--decrement">V</button>
+        </div>
+        <div class="clock__separator">:</div>
+        <div class="clock__seconds">
+          <button class="clock__btn clock__seconds--increment">^</button>
+          <div class="clock__seconds--display">00</div>
+          <button class="clock__btn clock__seconds--decrement">V</button>
+        </div>
+      </div>
+      <div class="controller">
+        <button class="btn btn--start">|></button>
+        <button class="btn btn--pause">||</button>
+        <button class="btn btn--reset">R</button>
+        <button class="btn btn--edit">E</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
